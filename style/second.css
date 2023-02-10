@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .my-header{
+    background-color: burlywood;
+} */
+
+.text-black{
+
+padding-top: 15%;
+}
+
+
+.btn-outline-primary,
+ .btn-outline-light {
+    border: none;
+}
+
+.profile{
+    margin-left: -20px;
+    padding-right: 0;
+    padding: 10px;
+}
+.seardch {
+    background-color:antiquewhite;
+    margin: 20px 30px;
+    padding: 0 20px;
+    display: flex;
+   
+}
+.form-select_my{
+  vertical-align: bottom;
+   height: 40px;
+}
+.input-group {
+  
+margin-top: 20px ;
+}
+.input-my{
+margin-right: 20px;
+}
+.btn-primary{
+    margin-top: 20px;
+    vertical-align:bottom;
+height: 40px;
+    padding: 0 50px;
+}
+.footer_my{
+    margin: 20px 20px;
+    
+}
+.my_card{
+margin-top: 10%;
+    padding-left: 100px;
+  
+}
+.main_kontent{
+    margin: 30px ;
+}
+.card  img {
+  height: 250px;
+ margin-right: -50px;
+}
+
+.card-body  {
+   padding-top: 30px;
+   
+}
+
+.card-title{
+    color: rgb(57, 81, 187);
+}
+.card-title a{
+    text-decoration: none;
+}
+
+.title span{
+  color: black;
+float: right;
+   font-size: 30px;
+  padding-right: 20px;
+}
+
+.card-text_my {
+    padding-top: 9%;
+   
+}
+
+.card-text_my small{
+padding-right: 20px;
+
+}
+
+ /* .price {
+  position: absolute;
+ 
+} */
+footer {
+    color: rgb(29, 29, 131);
+}
