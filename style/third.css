@@ -1,99 +1,161 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  /* .my-header{
-      background-color: burlywood;
-  } */
-  
-  .text-black {
-    padding-top: 15%;
-  }
-  
-  .btn-outline-primary,
-  .btn-outline-light {
-    border: none;
-  }
-  
-  .profile {
-    margin-left: -20px;
-    padding-right: 0;
-    padding: 10px;
-  }
-  .seardch {
-    background-color: rgb(123, 159, 224);
-    margin: 20px 30px;
-    padding: 0 20px;
-    display: flex;
-  }
-  .input-group {
-    margin-top: 20px;
-  }
-  .input-my {
-    margin-right: 20px;
-  }
-  .btn-primary {
-    margin-top: 20px;
-    vertical-align: bottom;
-    height: 40px;
-    padding: 0 50px;
-  }
-  
-  .card-body small {
-    padding-right: 20px;
-  }
-  
-  .bi-clock-fill,
-  .bi-geo-alt-fill {
-    padding-right: 10px;
-  }
-  
-  
-  .card-text {
-    padding: 0 10px;
-    font-size: 20px;
-  }
-  .text-center img {
-    margin: 0 40px;
-  }
-  .container_my {
-    margin-left: -20px;
-  }
-  
-  .input-group {
-    vertical-align: bottom;
-  }
-  .views {
-     padding: 10px;
-    background-color:rgb(240, 236, 231);
-  }
-  
-  .footer_my {
-    margin: 20px 20px;
-  }
-  .my_card {
-    margin-top: 10%;
-    padding-left: 100px;
-  }
-  footer {
-    color: rgb(29, 29, 131);
-  }
-  .row {
-    margin-top: 50px;
-    margin-left: 30px;
-  }
-  .col {
-    display: flex;
-    text-align: left;
-    padding: 30px;
-  }
-  .tovary a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 15px;
-    line-height: 25px;
-    align-self: center;
-    color: black;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+/* .my-header{
+    background-color: burlywood;
+} */
+
+.text-black {
+  padding-top: 15%;
+}
+
+.btn-outline-primary,
+.btn-outline-light {
+  border: none;
+}
+
+.profile {
+  font-weight: bold;
+  margin-left: -20px;
+  padding-right: 0;
+  padding: 10px;
+}
+.seardch {
+  background-color: rgb(123, 159, 224);
+  margin: 20px 30px;
+  padding: 0 20px;
+  display: flex;
+}
+.input-group {
+  margin-top: 20px;
+}
+.input-my {
+  margin-right: 20px;
+}
+.btn-primary {
+  margin-top: 20px;
+  vertical-align: bottom;
+  height: 40px;
+  padding: 0 50px;
+}
+
+.card-body small {
+  padding-right: 20px;
+}
+
+.bi-clock-fill,
+.bi-geo-alt-fill {
+  padding-right: 10px;
+}
+
+.card-text {
+  padding: 0 10px;
+  font-size: 20px;
+}
+.text-center img {
+  margin: 0 40px;
+}
+.container_my {
+  margin-left: -20px;
+}
+
+.input-group {
+  vertical-align: bottom;
+}
+.views {
+  padding: 10px;
+  background-color: rgb(240, 236, 231);
+}
+
+.footer_my {
+  margin: 20px 20px;
+}
+.my_card {
+  margin-top: 10%;
+  padding-left: 100px;
+}
+.card_coll {
+  border: none;
+}
+.card_coll i {
+  padding-right: 10px;
+}
+
+.button_price {
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  border: 1px solid bisque;
+}
+.d5 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -25px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 15px solid bisque;
+  border-bottom: 15px solid transparent;
+}
+
+.acount {
+  height: 40%;
+  border: none;
+  background-color: bisque;
+  text-align: center;
+}
+.card-body {
+  padding-top: 70px;
+  line-height: 40px;
+}
+.button_coll {
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  background-color: aqua;
+}
+.card-body p {
+  font-size: 20px;
+}
+.select {
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  color: aqua;
+  border: 1px solid aqua;
+  margin-bottom: -60%;
+}
+.acount_foto {
+  margin: 0 auto;
+  margin-top: -50px;
+  width: 100px;
+}
+.complain {
+  padding: 12px;
+  font-size: 20px;
+  color: firebrick;
+}
+
+footer {
+  color: rgb(29, 29, 131);
+}
+.row {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.col {
+  display: flex;
+  text-align: left;
+  padding: 30px;
+}
+.tovary a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+  line-height: 25px;
+  align-self: center;
+  color: black;
+}
