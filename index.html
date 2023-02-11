@@ -1,308 +1,337 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-
-    <!-- iconky -->
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/style_cars.css" >
   </head>
-
   <body>
-    <header class="p-3 bg-body-tertiary">
-      <div class="container-fluid">
-        <div
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start my-header"
-        >
-          <ul
-            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
-          >
-            <li>
-              <a href="#" class="nav-link px-2 text-secondary"
-                ><img src="./icons/ad.png" width="50" alt=""
-              /></a>
-            </li>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="imageslogo" >
+        </div>
 
-            <li>
-              <a href="#" class="nav-link px-2 text-black"
-                ><b> AD`S BOARD </b></a
-              >
+        <nav class="menu">
+          <ul>
+            <li class="menu-item">
+              <a href="#">Головна</a>
             </li>
-            <li><a href="#" class="nav-link px-2 text-white"></a></li>
-            <li><a href="#" class="nav-link px-2 text-white"></a></li>
-
-            <li><a href="#" class="nav-link px-2 text-white"></a></li>
+            <li class="menu-item">
+              <a href="#cars">Автомобілі</a>
+            </li>
+            <li class="menu-item">
+              <a href="#price">Бронювання авто</a>
+            </li>
           </ul>
+        </nav>
+      </div>
+    </header>
 
-          <div class="text-end text_my">
-            <button type="button" class="btn btn-warning">
-              <b> <b> +</b> New ad</b>
-            </button>
-
-            <button type="button" class="btn btn-outline-light me-2 icon_my">
-              <img src="./icons/av_64.png" width="50" alt="" />
-            </button>
-
-            <button type="button" class="btn btn-outline-primary me-2 profile">
-              <b> My profile</b>
+    <section class="main">
+      <div class="container">
+        <div class="main-info">
+          <h1 class="main-title">Оренда преміальних авто</h1>
+          <div class="main-text">
+            У нашому клубі є солідна колекція спортивних автомобілів - від
+            досить поширених серійних машин до справжнього гоночного ексклюзиву.
+            Скористайтеся унікальною нагодою побувати за кермом справжньої
+            легенди та дізнатися, на що вона здатна за межами гоночної траси!
+          </div>
+          <div class="main-action">
+            <button class="button" >
+              Переглянути автомобілі
             </button>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <div class="seardch">
-      <div class="input-group mb-3 input-my">
-        <span class="input-group-text" id="basic-addon1"
-          ><i class="bi bi-search"></i>
-        </span>
-        <input
-          type="text"
-          class="form-control"
-          placeholder="11 999 345 ads near you"
-          aria-label="Username"
-          aria-describedby="basic-addon1"
-        />
-      </div>
+    <section class="car" id="cars">
+      <div class="container_cars">
+        <h2 class="sub-title">Наш автопарк</h2>
 
-      <div class="input-group mb-3 input-my">
-        <span class="input-group-text" id="basic-addon1"
-          ><i class="bi bi-geo-alt-fill"></i
-        ></span>
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Kiev, Kiev area"
-          aria-label="Username"
-          aria-describedby="basic-addon1"
-        />
-      </div>
-      <button type="button" class="btn btn-primary">Search</button>
-    </div>
+        <div class="car-items">
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/onecar.png" alt="images_fon" >
+            </div>
+            <div class="car-item-title">Lamborghini Huracan Spyder</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>5.2 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2019</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Забронювати</button>
+            </div>
+          </div>
 
-    <!-- <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/twocar.png" alt="imeges_car" >
+            </div>
+            <div class="car-item-title">Chevrolet Corvette</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel">
+                <div>Двигун</div>
+                <div>6.2 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2017</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/thirdcar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Ferrari California</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="images" >
+                <div>Двигун</div>
+                <div>3.9 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2010</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/fourcar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Lamborghini Urus</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission">
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>4.0 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2019</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/fivecar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Audi R8</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>5.2 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2018</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/sixtcar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Chevrolet Camaro</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>2.0 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year">
+                <div>Рік випуску</div>
+                <div>2019</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/sevencar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Maserati Quattroporte</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>3.0 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year">
+                <div>Рік випуску</div>
+                <div>2018</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/eightcar.png" alt="car-item-image">
+            </div>
+            <div class="car-item-title">Dodge Challenger</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/wheel.png" alt="wheel" >
+                <div>Двигун</div>
+                <div>6.4 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2019</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="car-item-image">
+              <img src="./images/ninecar.png" alt="car-item-image" >
+            </div>
+            <div class="car-item-title">Nissan GT-R</div>
+            <div class="car-item-info">
+              <div class="car-item-point">
+                <img src="./images/transmission.png" alt="transmission" >
+                <div>Коробка</div>
+                <div>автомат</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/gear.png" alt="gear" >
+                <div>Двигун</div>
+                <div>3.8 л.с.</div>
+              </div>
+              <div class="car-item-point">
+                <img src="./images/year.png" alt="year" >
+                <div>Рік випуску</div>
+                <div>2019</div>
+              </div>
+            </div>
+            <div class="car-item-action">
+              <button class="button car-button">Зaбронювати</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
-        </div>
-      </div>
-     
+    </section>
 
-
-    </div> -->
-
-    <div class="container-fluid text-center">
-      <div class="row row-cols-4 tovary">
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-doll-96.png" alt="Children" />
-          <a href="./second.html">Children's world</a> 
+    <section class="price" id="price">
+      <div class="container">
+        <h2 class="sub-title">Дізнатись ціну і забронювати</h2>
+        <div class="price-text">
+          Заповніть дані, і ми передзвонимо вам для уточнення всіх деталей
+          бронювання
         </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-home-94.png" alt="property" />
-          <a href="./second.html">Property</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-cars-94.png" alt="Transport" />
-          <a href="./second.html">Transport</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-service-94.png" alt="For cars" />
-          <a href="./second.html">Spare parts for cars</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-book-96.png" alt="Jobs" />
-          <a href="./second.html">Jobs</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-catt hend-96.png" alt="animal" />
-          <a href="./second.html">Animals</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-sofa-94.png" alt="Sofa" />
-          <a href="./second.html">House & garden</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-windows-mobile-96.png" alt="Phone" />
-          <a href="./second.html">Phones, Tablets & PCs</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-job-94.png" alt="Busines" />
-          <a href="./second.html">Business & services</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-polo-shirt-96.png" alt="shirt" />
-          <a href="./second.html">Fashion & style</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-bike-96.png" alt="bike" />
-          <a href="./second.html">
-            Hobbies, recreation & <br />
-            sports
-          </a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-gift-94.png" alt="gifts" />
-          <a href="./second.html">Gifts</a>
-        </div>
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-          <img src="./icons-second/icons8-circle-96.png" alt="Exchange" />
-          <a href="./second.html">Exchange</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <footer
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top footer_my"
-      >
-        <div class="col mb-3">
-          <p class="text-muted my_card">
-            <img src="./icons/ad_bw.png" alt="icons" />
-          </p>
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+        <form action="main" class="price-form">
+          <input
+            type="text"
+            class="price-input"
+            id="name"
+            placeholder="Ваше ім'я"
           >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap" />
-            </svg>
-          </a>
+          <input
+            type="text"
+            class="price-input"
+            id="phone"
+            placeholder="Ваш номер"
+          >
+          <input
+            type="text"
+            class="price-input"
+            id="car"
+            placeholder="Автомобіль, який вас зацікавив"
+          >
+          <button class="button">Дізнатись ціну</button>
+        </form>
+        <img src="./images/rolls.png" alt="rolls" class="price-image" >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" >
         </div>
-
-        <div class="col mb-3"></div>
-
-        <div class="col mb-3">
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Mobile applications</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Paid services</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Advertising on the website</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">For the press </a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Help and Feedback</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col mb-3">
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">AD`S BOARD blog </a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Safety regulations</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">How to sell and buy?</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Terms of Use</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Partners</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col mb-3">
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Work at AD`S BOARD</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Popular Searches</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Map of Regions</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Advertising preferences </a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0">Site Map</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+        <div class="rights">Всі права захищені</div>
+      </div>
+    </footer>
   </body>
 </html>
