@@ -295,6 +295,7 @@ body {
   }
 
   .car .sub-title {
+    font-size: 50px;
     text-align: center;
   }
 
@@ -303,6 +304,12 @@ body {
     display: flex;
     width: 90%;
     padding-left: 5px;
-
   }
+.container-fluid .sub-title{
+  font-size: 50px;
+}
+.price-section{
+  display: block;
+ 
+}
 }
