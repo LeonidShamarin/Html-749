@@ -4,7 +4,7 @@
 }
 
 *{
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 @font-face {
@@ -282,7 +282,14 @@ body {
     padding: 15px;
     height: 54px;
   }
-
+  .main-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110%;
+    color: #030305;
+    margin-bottom: 45px;
+  }
+  
   .main .main-text {
     color: rgb(255, 0, 140);
   }
