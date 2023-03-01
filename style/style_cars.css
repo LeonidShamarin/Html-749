@@ -4,7 +4,7 @@
 }
 
 *{
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 @font-face {
@@ -29,7 +29,7 @@ body {
   padding: 25px 0;
 }
 
-.container_cars {
+.car .container_cars {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -126,10 +126,6 @@ body {
 .button:hover {
   cursor: pointer;
   background: #575757;
-}
-
-.button a {
-  text-decoration: none;
 }
 
 .car {
@@ -276,18 +272,27 @@ body {
 }
 
 @media (max-width: 768px) {
-
+ 
+ 
   .car-item-action .button {
     width: 70%;
     padding: 15px;
     height: 54px;
   }
-
+  .main-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110%;
+    color: #030305;
+    margin-bottom: 45px;
+  }
+  
   .main .main-text {
     color: rgb(255, 0, 140);
   }
 
   .car .sub-title {
+    font-size: 50px;
     text-align: center;
   }
 
@@ -296,6 +301,48 @@ body {
     display: flex;
     width: 90%;
     padding-left: 5px;
-
   }
+.container-fluid .sub-title{
+  font-size: 30px;
+  margin-left: -70px;
+  
+}
+
+}
+@media (max-width: 1024px) {
+ 
+ 
+  .car-item-action .button {
+    width: 80%;
+    padding: 15px;
+    height: 54px;
+  }
+  .main-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110%;
+    color: #030305;
+    margin-bottom: 45px;
+  }
+  
+  .main .main-text {
+    color: rgb(255, 0, 140);
+  }
+
+  .car .sub-title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .price .sub-title {
+    font-size: 50px;
+    text-align: center;
+  }
+ 
+
+  .price-text {
+    display: flex;
+    width: 90%;
+    padding-left: 5px;
+  }
+
 }
