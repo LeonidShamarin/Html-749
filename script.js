@@ -43,6 +43,3 @@ document.addEventListener("DOMContentLoaded", () => {
     elem.style.backgroundPositionX = `0${bgPositionX}px`;
   });
 });
-
-
-
