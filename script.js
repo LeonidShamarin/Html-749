@@ -17,7 +17,7 @@ priceAction.addEventListener("click", () => {
   const name = document.getElementById("name");
   const phone = document.getElementById("phone");
   const car = document.getElementById("car");
-  
+
   if (name.value === "") {
     alert("Заповніть поле ім'я!");
   } else if (phone.value === "") {
