@@ -320,7 +320,14 @@ body {
     font-weight: bold;
     font-size: small;
   }
-
+.carousel-text{
+  font-size: small;
+}
+.carousel-text h4{
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
 }
 
 @media (max-width: 1024px) {
