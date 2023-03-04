@@ -1,3 +1,4 @@
+(function () {
 const mainAction = document.getElementById("main-action");
 mainAction.addEventListener("click", () => {
   const cars = document.getElementById("cars");
@@ -43,3 +44,4 @@ document.addEventListener("DOMContentLoaded", () => {
     elem.style.backgroundPositionX = `0${bgPositionX}px`;
   });
 });
+})();
