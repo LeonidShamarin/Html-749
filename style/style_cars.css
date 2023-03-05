@@ -1,3 +1,4 @@
+@import url(clock.css);
 * {
   padding: 0;
   margin: 0;
@@ -282,6 +283,8 @@ body {
 }
 
 @media (max-width: 768px) {
+
+
   .car-item-action .button {
     width: 70%;
     padding: 15px;
@@ -314,10 +317,32 @@ body {
   .container-fluid .sub-title {
     font-size: 30px;
     margin-left: -70px;
+
   }
+
+  .d-md-block {
+    padding: 20px;
+    font-size: smaller;
+  }
+
+  .d-md-block h4 {
+    color: #000000;
+    font-weight: bold;
+    font-size: small;
+  }
+.carousel-text{
+  font-size: small;
+}
+.carousel-text h4{
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
 }
 
 @media (max-width: 1024px) {
+
+
   .car-item-action .button {
     width: 80%;
     padding: 15px;

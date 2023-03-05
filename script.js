@@ -1,3 +1,4 @@
+(function () {
 const mainAction = document.getElementById("main-action");
 mainAction.addEventListener("click", () => {
   const cars = document.getElementById("cars");
@@ -17,7 +18,7 @@ priceAction.addEventListener("click", () => {
   const name = document.getElementById("name");
   const phone = document.getElementById("phone");
   const car = document.getElementById("car");
-  
+
   if (name.value === "") {
     alert("Заповніть поле ім'я!");
   } else if (phone.value === "") {
@@ -43,3 +44,4 @@ document.addEventListener("DOMContentLoaded", () => {
     elem.style.backgroundPositionX = `0${bgPositionX}px`;
   });
 });
+})();
