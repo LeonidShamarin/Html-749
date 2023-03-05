@@ -1,10 +1,10 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-*{
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -199,7 +199,10 @@ body {
 .car-item-point>div:nth-child(2) {
   font-weight: bold;
 }
-
+.carousel-inner{
+  font-family:  serif;
+  font-style: italic;
+}
 
 
 .price {
@@ -265,6 +268,13 @@ body {
   justify-content: space-between;
 }
 
+.footer_created {
+  font-style: italic;
+  font-weight: bold;
+  border-left: 5px solid red;
+  padding-left: 20px;
+}
+
 .rights {
   font-size: 15px;
   padding-right: 50px;
@@ -272,13 +282,12 @@ body {
 }
 
 @media (max-width: 768px) {
- 
- 
   .car-item-action .button {
     width: 70%;
     padding: 15px;
     height: 54px;
   }
+
   .main-title {
     font-weight: bold;
     font-size: 50px;
@@ -286,7 +295,7 @@ body {
     color: #030305;
     margin-bottom: 45px;
   }
-  
+
   .main .main-text {
     color: rgb(255, 0, 140);
   }
@@ -296,27 +305,25 @@ body {
     text-align: center;
   }
 
-
   .price-text {
     display: flex;
     width: 90%;
     padding-left: 5px;
   }
-.container-fluid .sub-title{
-  font-size: 30px;
-  margin-left: -70px;
-  
+
+  .container-fluid .sub-title {
+    font-size: 30px;
+    margin-left: -70px;
+  }
 }
 
-}
 @media (max-width: 1024px) {
- 
- 
   .car-item-action .button {
     width: 80%;
     padding: 15px;
     height: 54px;
   }
+
   .main-title {
     font-weight: bold;
     font-size: 50px;
@@ -324,7 +331,7 @@ body {
     color: #030305;
     margin-bottom: 45px;
   }
-  
+
   .main .main-text {
     color: rgb(255, 0, 140);
   }
@@ -333,16 +340,15 @@ body {
     font-size: 50px;
     text-align: center;
   }
+
   .price .sub-title {
     font-size: 50px;
     text-align: center;
   }
- 
 
   .price-text {
     display: flex;
     width: 90%;
     padding-left: 5px;
   }
-
 }
